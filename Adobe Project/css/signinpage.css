@@ -1,0 +1,121 @@
+        * {
+            font-family: 'Poppins';
+            font-size: 16px;
+            line-height: normal;
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
+        
+        @font-face {
+            font-family: "Poppins";
+            src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
+        }
+        
+        body {
+            background: url("../assets/Group\ 233.png");
+        }
+        
+        .signup {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .image {
+            background: url("../assets/Group\ 232.png");
+            width: 400px;
+            height: 500px;
+            margin-top: 50px;
+        }
+        
+        .title1 {
+            position: relative;
+            text-align: center;
+            font-size: 40px;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            top: 200px;
+        }
+        
+        .title2 {
+            position: relative;
+            text-align: center;
+            font-size: 30px;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            top: 210px;
+        }
+        
+        .title3 {
+            position: relative;
+            text-align: center;
+            top: 280px;
+            left: 130px;
+        }
+        
+        .image2 {
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            position: relative;
+            margin-top: 50px;
+            width: 400px;
+            height: 500px;
+        }
+        
+        .userregistration {
+            position: relative;
+            justify-content: center;
+            padding-top: 40px;
+            left: 20px;
+        }
+        
+        .title4 {
+            text-align: left;
+            font-size: 25px;
+            letter-spacing: 0px;
+            color: #28233C;
+        }
+        
+        .title5 {
+            text-align: left;
+            font-size: 20px;
+            letter-spacing: 0px;
+            color: #ADA9BF;
+        }
+        
+        .user {
+            text-align: left;
+            font-size: 16px;
+            letter-spacing: 0px;
+            color: #353047;
+            padding-top: 20px;
+        }
+        
+        .regform input[type=text],
+        input[type=password],
+        input[type=email],
+        select {
+            width: 90%;
+            padding: 2px 4px;
+            margin: 2px 0;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 2px solid #ADA9BF;
+        }
+        
+        .view {
+            position: relative;
+            right: 25px;
+        }
+        
+        .createaccount {
+            background: transparent linear-gradient(256deg, #501769 0%, #382780 100%);
+            color: white;
+            font-size: 1rem;
+            border-radius: 0.125rem;
+            height: 2.5rem;
+            width: 15rem;
+            padding: 0.5rem 0.625rem;
+            margin-top: 20px;
+        }
